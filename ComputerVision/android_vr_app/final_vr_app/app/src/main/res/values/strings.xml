@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">final_VR_app</string>
+    <string name="panorama_not_ready">Panorama is not ready yet</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:id="@+id/PNU"
+            android:layout_width="wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_weight="1"
+            android:onClick="gotoPNU"
+            android:text="pnu"
+            android:textSize = "50px"
+            />
+
+        <Button
+            android:id="@+id/ICELAND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="gotoICELAND"
+            android:text="iceland"
+            android:textSize = "50px"/>
+
+        <Button
+            android:id="@+id/ENGLAND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="gotoENGLAND"
+            android:text="england"
+            android:textSize = "50px"/>
+
+        <Button
+            android:id="@+id/COMBODIA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="gotoCOMBODIA"
+            android:text="combodia"
+            android:textSize="50px"/>
+
+    </LinearLayout>
+    <fragment
+        android:id="@+id/streetviewpanorama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportStreetViewPanoramaFragment" />
+</LinearLayout>
